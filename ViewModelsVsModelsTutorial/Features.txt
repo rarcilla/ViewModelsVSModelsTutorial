@@ -1,0 +1,7 @@
+Features:
+
+1) When creating a bank account, a user should provide ssn, balance, and account type
+2) When opening a chequing account, a user must provide at least $100 initial balance DOMAIN - nothing to do with the VM, rules of the application
+3) When opening a savings account, a user must provide at least $500 initial balance DOMAIN
+
+domain rules => end up being in the model

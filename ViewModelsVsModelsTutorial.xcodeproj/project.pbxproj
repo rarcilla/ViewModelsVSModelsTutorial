@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F8B02F725258D1200FDFDFF /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8B02F625258D1200FDFDFF /* BankAccount.swift */; };
 		7FC84B1625254676003AD5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC84B1525254676003AD5CD /* AppDelegate.swift */; };
 		7FC84B1825254676003AD5CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC84B1725254676003AD5CD /* SceneDelegate.swift */; };
 		7FC84B1A25254676003AD5CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC84B1925254676003AD5CD /* ContentView.swift */; };
 		7FC84B1C25254677003AD5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC84B1B25254677003AD5CD /* Assets.xcassets */; };
 		7FC84B1F25254677003AD5CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC84B1E25254677003AD5CD /* Preview Assets.xcassets */; };
 		7FC84B2225254677003AD5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC84B2025254677003AD5CD /* LaunchScreen.storyboard */; };
+		7FC84B2B252546E2003AD5CD /* Features.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7FC84B2A252546E2003AD5CD /* Features.txt */; };
+		7FC84B2F25254757003AD5CD /* CreateBankAccountVIewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC84B2E25254757003AD5CD /* CreateBankAccountVIewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F8B02F625258D1200FDFDFF /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		7FC84B1225254676003AD5CD /* ViewModelsVsModelsTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewModelsVsModelsTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FC84B1525254676003AD5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7FC84B1725254676003AD5CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		7FC84B1E25254677003AD5CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7FC84B2125254677003AD5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FC84B2325254677003AD5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FC84B2A252546E2003AD5CD /* Features.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Features.txt; sourceTree = "<group>"; };
+		7FC84B2E25254757003AD5CD /* CreateBankAccountVIewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateBankAccountVIewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F8B02F525258D0900FDFDFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F8B02F625258D1200FDFDFF /* BankAccount.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		7FC84B0925254676003AD5CD = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +70,8 @@
 		7FC84B1425254676003AD5CD /* ViewModelsVsModelsTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				7F8B02F525258D0900FDFDFF /* Models */,
+				7FC84B2D25254741003AD5CD /* View Models */,
 				7FC84B1525254676003AD5CD /* AppDelegate.swift */,
 				7FC84B1725254676003AD5CD /* SceneDelegate.swift */,
 				7FC84B1925254676003AD5CD /* ContentView.swift */,
@@ -63,6 +79,7 @@
 				7FC84B2025254677003AD5CD /* LaunchScreen.storyboard */,
 				7FC84B2325254677003AD5CD /* Info.plist */,
 				7FC84B1D25254677003AD5CD /* Preview Content */,
+				7FC84B2A252546E2003AD5CD /* Features.txt */,
 			);
 			path = ViewModelsVsModelsTutorial;
 			sourceTree = "<group>";
@@ -73,6 +90,14 @@
 				7FC84B1E25254677003AD5CD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FC84B2D25254741003AD5CD /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				7FC84B2E25254757003AD5CD /* CreateBankAccountVIewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC84B2225254677003AD5CD /* LaunchScreen.storyboard in Resources */,
+				7FC84B2B252546E2003AD5CD /* Features.txt in Resources */,
 				7FC84B1F25254677003AD5CD /* Preview Assets.xcassets in Resources */,
 				7FC84B1C25254677003AD5CD /* Assets.xcassets in Resources */,
 			);
@@ -145,7 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FC84B2F25254757003AD5CD /* CreateBankAccountVIewModel.swift in Sources */,
 				7FC84B1625254676003AD5CD /* AppDelegate.swift in Sources */,
+				7F8B02F725258D1200FDFDFF /* BankAccount.swift in Sources */,
 				7FC84B1825254676003AD5CD /* SceneDelegate.swift in Sources */,
 				7FC84B1A25254676003AD5CD /* ContentView.swift in Sources */,
 			);
